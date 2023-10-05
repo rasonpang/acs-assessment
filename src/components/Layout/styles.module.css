@@ -1,0 +1,31 @@
+.container {
+	--header-height: 50px;
+}
+
+.header {
+	position: fixed;
+	left: 0;
+	top: 0;
+	background-color:var(--primary-color);
+	width: 100vw;
+	height: var(--header-height);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.navigate_wrapper {
+	display: flex;
+	gap: 5em;
+}
+.navigate_wrapper > a {
+	background-color: var(--tertiary-color);
+	padding: .5rem;
+}
+.navigate_wrapper > a:hover {
+	background-color: var(--forth-color);
+}
+
+.children {
+	margin-top: calc(var(--header-height) + 8px);
+}
