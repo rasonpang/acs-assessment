@@ -26,6 +26,7 @@
 	background-color: var(--forth-color);
 }
 
-.children {
+.breadcrumb_wrapper {
 	margin-top: calc(var(--header-height) + 8px);
+	margin-bottom: 1em;
 }

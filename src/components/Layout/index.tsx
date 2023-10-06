@@ -1,6 +1,7 @@
 import type {ReactNode} from "react";
 import styles from "./styles.module.css";
 import Link from "next/link";
+import Breadcrumb from "../Breadcrumb";
 
 type LayoutProps = {children: ReactNode};
 
@@ -12,6 +13,9 @@ const Layout = ({children}: LayoutProps) => {
 					<Link href={"/mcq"}>MCQ</Link>
 					<Link href={"/question"}>Question</Link>
 				</div>
+			</div>
+			<div className={styles.breadcrumb_wrapper}>
+				<Breadcrumb />
 			</div>
 			<div className={styles.children}>{children}</div>
 		</div>

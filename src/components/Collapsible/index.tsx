@@ -14,7 +14,12 @@ const Collapsible = (props: CollapsibleProps) => {
 			<label className={styles.title} htmlFor={toggleId}>
 				<div>{props.title}</div>
 			</label>
-			<input id={toggleId} className={styles.collapse} type="checkbox" />
+			<input
+				id={toggleId}
+				className={styles.collapse}
+				type="checkbox"
+				defaultChecked={true}
+			/>
 			<div className={styles.children}>{props.children}</div>
 		</div>
 	);
