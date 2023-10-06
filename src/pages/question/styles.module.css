@@ -1,0 +1,15 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+}
+
+.container > a {
+	padding: 2rem;
+	background-color: var(--tertiary-color);
+	width: fit-content;
+}
+
+.container > a:hover {
+	background-color: var(--forth-color);
+}

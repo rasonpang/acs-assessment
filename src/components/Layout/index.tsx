@@ -2,7 +2,9 @@ import type {ReactNode} from "react";
 import styles from "./styles.module.css";
 import Link from "next/link";
 
-const Layout = ({children}: {children: ReactNode}) => {
+type LayoutProps = {children: ReactNode};
+
+const Layout = ({children}: LayoutProps) => {
 	return (
 		<div className={styles.container}>
 			<div className={styles.header}>

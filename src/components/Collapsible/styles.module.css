@@ -1,0 +1,31 @@
+.container {
+	--padding: 1rem;
+}
+
+.title {
+	display: flex;
+	background-color: var(--tertiary-color);
+	padding: var(--padding);
+}
+
+.title > div {
+	width: 100%;
+}
+
+.collapse {
+	display: none;
+}
+
+.collapse:checked ~ .children {
+	max-height: 100%;
+	padding: var(--padding);
+}
+
+.children {
+	color: black;
+	max-height: 0;
+	overflow: hidden;
+	border-bottom-left-radius: var(--padding);
+	border-bottom-right-radius: var(--padding);
+	background-color: var(--forth-color);
+}
