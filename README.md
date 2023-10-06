@@ -10,7 +10,7 @@
 4. Open browser and enter the url http://localhost:3000
 
 ## MCQ Answers (Store in Readme as well)
-
+```
 1. a. Caption-side
 2. c. It selects the 2nd, 4th, 6th, 8th, etc. (even) <p> tags starting from 2.
 3. c. Order: #div1, #div3, #div2, and #div4
@@ -36,3 +36,4 @@
 10. a. componentDidUpdate()
 11. d. align-items
 12. b. Span
+```
